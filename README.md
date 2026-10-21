@@ -4,6 +4,7 @@
 ![Streamlit](https://img.shields.io/badge/Dashboard-Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![Security](https://img.shields.io/badge/Focus-SOC%20L1%20%2F%20Blue%20Team-success)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://soc-l1-triage-assistant-uap6s2dn53k9bkwc5ewappm.streamlit.app)
 
 An automated Open-Source Intelligence (OSINT) enrichment and risk-scoring dashboard designed for **Tier-1 SOC Analysts**. This tool streamlines the initial triage of suspicious IPv4 indicators of compromise (IoCs) without requiring commercial API keys.
 
