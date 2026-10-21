@@ -8,7 +8,7 @@ env/
 *.iws
 *.iml
 
-.env
+.envg
 .env.*
 !.env.example
 
