@@ -4,26 +4,21 @@ venv/
 ENV/
 env/
 
-# Ustawienia i pamięć podręczna IDE (PyCharm / JetBrains)
 .idea/
 *.iws
 *.iml
 
-# Pliki środowiskowe z kluczami API (na przyszłość)
 .env
 .env.*
 !.env.example
 
-# Pamięć podręczna Pythona (Bytecode)
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
 
-# Cache Streamlita
 .streamlit/secrets.toml
 
-# Pliki systemowe Windowsa i edytorów
 Thumbs.db
 Desktop.ini
 .vscode/
