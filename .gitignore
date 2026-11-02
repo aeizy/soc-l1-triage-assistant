@@ -1,27 +1,44 @@
-# Środowisko wirtualne (Virtual Environment)
+# Local credentials and environment configuration
+.env
+.envg
+.env.*
+!.env.example
+secrets.toml
+secrets.*.toml
+.streamlit/secrets.toml.*
+!.streamlit/secrets.toml.example
+*.key
+*.pem
+
+# Python environments, bytecode and tooling caches
 .venv/
 venv/
 ENV/
 env/
-
-.idea/
-*.iws
-*.iml
-
-.envg
-.env.*
-!.env.example
-
 __pycache__/
 *.py[cod]
 *$py.class
-*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
+*.egg-info/
 
-.streamlit/secrets.toml
+# Local reports, scratch files and logs
+work/
+outputs/
+*.log
 
+# Editor and operating system files
+.idea/
+.vscode/
+*.iws
+*.iml
+.DS_Store
 Thumbs.db
 Desktop.ini
-.vscode/
-
-# Logi
-*.log
